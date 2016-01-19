@@ -55,7 +55,7 @@ public class UIScript : MonoBehaviour {
 
     public void SetSpeedFromSlider()
     {
-        fight.attackSpeed = speedSlider.value;
+        fight.SetAnimationSpeed(speedSlider.value);
     }
 
     public void SetDelayMin(float delayMin)

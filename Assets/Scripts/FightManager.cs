@@ -215,4 +215,12 @@ public class FightManager : MonoBehaviour {
         }
 
     }
+
+    public void SetAnimationSpeed(float speed)
+    {
+        attackSpeed = speed;
+        anim["attack1"].speed = speed;
+        anim["attack2"].speed = speed;
+        anim["attack3"].speed = speed;
+    }
 }

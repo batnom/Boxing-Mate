@@ -9,11 +9,13 @@ public class GameWorld : MonoBehaviour {
 
     public GameObject HUDCanvas;
     public GameObject MenuCanvas;
+    public GameObject SettingsCanvas;
 
 
     void Awake ()
     {
         MenuCanvas.SetActive(true);
+        SettingsCanvas.SetActive(true);
         HUDCanvas.SetActive(false);
     }
 
@@ -25,6 +27,8 @@ public class GameWorld : MonoBehaviour {
     {
         MenuCanvas.SetActive(false);
         HUDCanvas.SetActive(true);
+        SettingsCanvas.SetActive(true);
+
         //SetupFight(12.0f, 1.0f, null, 1.0f, 2.0f);
         StartFight();
     }
@@ -52,6 +56,7 @@ public class GameWorld : MonoBehaviour {
     public void FightFinished()
     {
         MenuCanvas.SetActive(true);
+        SettingsCanvas.SetActive(true);
         HUDCanvas.SetActive(false);
     }
 	
