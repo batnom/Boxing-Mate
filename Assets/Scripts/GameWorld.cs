@@ -26,8 +26,8 @@ public class GameWorld : MonoBehaviour {
     public void HitStartButton()
     {
         MenuCanvas.SetActive(false);
+        SettingsCanvas.SetActive(false);
         HUDCanvas.SetActive(true);
-        SettingsCanvas.SetActive(true);
 
         //SetupFight(12.0f, 1.0f, null, 1.0f, 2.0f);
         StartFight();
