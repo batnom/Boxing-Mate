@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+//using System.Collections.Generic;
 using System.Collections;
 
 public class FightManager : MonoBehaviour {
@@ -8,10 +9,11 @@ public class FightManager : MonoBehaviour {
 
     public GameObject fighter;
     public GameWorld game;
+    public UIScript ui;
 
     public float fightTime = 10f;
     public int attackMoves = 3;
-    public Transform[] attackMoveArray;
+    public ArrayList attackMoveArray;
 
     public float delayMin = 1f;
     public float delayMax = 2f;
@@ -45,6 +47,7 @@ public class FightManager : MonoBehaviour {
         count = 0;
         fighting = 0;
         finishedTimer = 0f;
+        attackMoveArray = new ArrayList();
 
     }
 
@@ -119,7 +122,7 @@ public class FightManager : MonoBehaviour {
         // Get random attack type
 
         count += 1;
-        int attackNumber = Random.Range(0, attackMoves);
+        int attackNumber = Random.Range(0, attackMoveArray.Count);
 
         // Get the delay
 
@@ -145,10 +148,12 @@ public class FightManager : MonoBehaviour {
 
         // Code to execute after the delay
 
-        Debug.Log("attack #" + count + " with type: " + attackNumber);
+        string attackAnimation = (string)attackMoveArray[attackNumber];
+
+        Debug.Log("attack #" + count + " with type " + attackNumber + ": " + attackAnimation);
 
         // Play the correct attack animation
-
+        /*
         switch (attackNumber)
         {
             case 0:
@@ -170,6 +175,10 @@ public class FightManager : MonoBehaviour {
                 Debug.Log("Switch case default: " + attackNumber);
                 break;
         }
+        */
+
+        anim.CrossFade(attackAnimation, 0.4f);
+        anim.wrapMode = WrapMode.Once;
 
         // Then make them idle again
         // Queue up a few just in case there's a big break
@@ -219,8 +228,47 @@ public class FightManager : MonoBehaviour {
     public void SetAnimationSpeed(float speed)
     {
         attackSpeed = speed;
-        anim["attack1"].speed = speed;
-        anim["attack2"].speed = speed;
-        anim["attack3"].speed = speed;
+        foreach (string x in attackMoveArray)
+        {
+            anim[x].speed = speed;
+        }
     }
+
+    public void AddAttack(string name)
+    {
+        int exists = IsAttackPresent(name);
+        if (exists == -1)
+        {
+            Debug.Log("adding " + name);
+            attackMoveArray.Add(name);
+        }
+        ui.ValidateSettings();
+    }
+
+    public void RemoveAttack(string name)
+    {
+        int exists = IsAttackPresent(name);
+        if (exists >= 0)
+        {
+            Debug.Log("removing " + name);
+            attackMoveArray.RemoveAt(exists);
+        }
+        ui.ValidateSettings();
+    }
+
+    public int IsAttackPresent(string thisname)
+    {
+        int exists = -1;
+        int count = 0;        
+        foreach (string test in attackMoveArray)
+        {
+            if (test.Equals(thisname))
+            {
+                exists = count;
+            }
+            count++;
+        }
+        return exists;
+    }
+
 }
