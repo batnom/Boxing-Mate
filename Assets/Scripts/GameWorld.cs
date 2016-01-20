@@ -6,6 +6,7 @@ public class GameWorld : MonoBehaviour {
     // Variables that we can set
 
     public FightManager fight;
+    public UIScript ui;
 
     public GameObject HUDCanvas;
     public GameObject MenuCanvas;
@@ -14,13 +15,20 @@ public class GameWorld : MonoBehaviour {
 
     void Awake ()
     {
-        MenuCanvas.SetActive(true);
+        // Ensure the Settings UI is showing the correct settings
+        ui.UpdateSettingsWithValues();
         SettingsCanvas.SetActive(true);
+
+        MenuCanvas.SetActive(true);
         HUDCanvas.SetActive(false);
     }
 
     void Start () {
-
+        // ANIMATION LIST HERE
+        fight.AddAttack("attack1");
+        fight.AddAttack("attack2");
+        fight.AddAttack("attack3");
+        ui.UpdateSettingsWithValues();
     }
 
     public void HitStartButton()
@@ -33,9 +41,8 @@ public class GameWorld : MonoBehaviour {
         StartFight();
     }
 
-    public void SetupFight(float length, float speed, Transform[] attackMoves, float delayMin, float delayMax)
+    public void SetupFight(float length, float speed, ArrayList attackMoves, float delayMin, float delayMax)
     {
-
         Debug.Log("Setting up and starting fight!");
 
         // Setup Fight
@@ -46,6 +53,7 @@ public class GameWorld : MonoBehaviour {
         fight.delayMin = delayMin;
         fight.delayMax = delayMax;
 
+        ui.UpdateSettingsWithValues();
     }
 
     public void StartFight()
