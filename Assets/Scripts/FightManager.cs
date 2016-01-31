@@ -19,15 +19,19 @@ public class FightManager : MonoBehaviour {
     public float delayMax = 2f;
 
     public float attackSpeed = 1.0f;
+    public float guardSpeed = 1.0f;
 
     private bool isCoroutineExecuting = false;
 
     float finishedTimer;
-    public float finishedDelay = 3f;
+    public float finishedDelay = 0.5f;
+    string idlename;
+    string guardname;
 
     // UI
 
     public Slider timeSlider;
+    public Text levelText;
 
     // Objects
     Animation anim;
@@ -48,6 +52,8 @@ public class FightManager : MonoBehaviour {
         fighting = 0;
         finishedTimer = 0f;
         attackMoveArray = new ArrayList();
+        idlename = "Idle1";
+        guardname = "Guard";
 
     }
 
@@ -55,8 +61,9 @@ public class FightManager : MonoBehaviour {
 
         // Make him start chilling
 
-        anim.Play("idle");
-        anim.wrapMode = WrapMode.Loop;
+        anim[idlename].speed = 0.5f;
+        anim.CrossFade(idlename, 1.5f);
+        anim.wrapMode = WrapMode.PingPong;
 
     }
 
@@ -70,6 +77,29 @@ public class FightManager : MonoBehaviour {
         timer = 0f;
         finishedTimer = 0f;
 
+        string showLevel = game.levelNumber.ToString();
+        if (game.levelNumber == 999)
+            showLevel = "C";
+
+        levelText.text = "" + showLevel + "";
+
+        // Go to Guard then Guard for a while until the first punch kicks in
+
+        anim.CrossFade("GoToGuard", 0.3f, PlayMode.StopAll);
+        anim.wrapMode = WrapMode.Once;
+
+        QueueGuard();
+
+        // Print out what we've got
+
+        string gotem = "";
+        foreach (string test in attackMoveArray)
+        {
+            gotem = gotem + " " + test;
+
+        }
+        Debug.Log("STARTING FIGHT WITH ATTACKS: " + gotem);
+
         // Start the first attack
         // After it throws one it will automatically start the next
 
@@ -80,13 +110,13 @@ public class FightManager : MonoBehaviour {
     public void EndFight ()
     {
 
-        anim.CrossFade("death", 0.5f);
-        anim.wrapMode = WrapMode.Once;
-
-        //anim.CrossFade("idle", 0.5f);
-        //anim.wrapMode = WrapMode.Loop;
+        // set this in case they hit the stop button
 
         fighting = 0;
+        isCoroutineExecuting = false;
+
+        anim.CrossFade(idlename, 0.5f);
+        anim.wrapMode = WrapMode.PingPong;
 
     }
 
@@ -130,7 +160,7 @@ public class FightManager : MonoBehaviour {
 
         // Call attack
 
-        Debug.Log("[" + count + "] Waiting " + delay + "secs then throwing attack type #" + attackNumber);
+        Debug.Log("[" + count + "] Waiting " + delay.ToString("F2") + "secs then throwing attack type #" + attackNumber);
 
         StartCoroutine(AttackNumberAfterTime(attackNumber, delay));
 
@@ -152,43 +182,13 @@ public class FightManager : MonoBehaviour {
 
         Debug.Log("attack #" + count + " with type " + attackNumber + ": " + attackAnimation);
 
-        // Play the correct attack animation
-        /*
-        switch (attackNumber)
-        {
-            case 0:
-                //anim.Play("attack1");
-                anim.CrossFade("attack1", 0.4f);
-                anim.wrapMode = WrapMode.Once;
-                break;
-            case 1:
-                //anim.Play("attack2");
-                anim.CrossFade("attack2", 0.4f);
-                anim.wrapMode = WrapMode.Once;
-                break;
-            case 2:
-                //anim.Play("attack3");
-                anim.CrossFade("attack3", 0.4f);
-                anim.wrapMode = WrapMode.Once;
-                break;
-            default:
-                Debug.Log("Switch case default: " + attackNumber);
-                break;
-        }
-        */
-
-        anim.CrossFade(attackAnimation, 0.4f);
+        anim.CrossFade(attackAnimation, 0.2f, PlayMode.StopAll);
         anim.wrapMode = WrapMode.Once;
 
         // Then make them idle again
         // Queue up a few just in case there's a big break
 
-        anim.CrossFadeQueued("combat_idle", 0.3f, QueueMode.CompleteOthers);
-        anim.CrossFadeQueued("combat_idle", 0.3f, QueueMode.CompleteOthers);
-        anim.CrossFadeQueued("combat_idle", 0.3f, QueueMode.CompleteOthers);
-        anim.CrossFadeQueued("combat_idle", 0.3f, QueueMode.CompleteOthers);
-        anim.CrossFadeQueued("combat_idle", 0.3f, QueueMode.CompleteOthers);
-        //anim.wrapMode = WrapMode.Loop; // can't do this or it'll apply to the attacks too..
+        QueueGuard();
 
         // Stop the delay loop
 
@@ -200,20 +200,44 @@ public class FightManager : MonoBehaviour {
 
     }
 
+    void QueueGuard ()
+    {
+        anim[guardname].speed = guardSpeed;
+        anim.CrossFadeQueued(guardname, 0.2f, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+    }
+
     // Update is called once per frame
     void Update () {
+
+        // List animations and their current time
+
+        // if the fight is over wait a bit
+        if (timer >= fightTime && fighting == 0)
+        {
+            finishedTimer += Time.deltaTime;
+        }
 
         // for our time UI at the bottom
         if (fighting == 1)
         {
             timer += Time.deltaTime;
             timeSlider.value = timer / fightTime * 100.0f;
-        }
-
-        // if the fight is over wait a bit
-        if (timer >= fightTime && fighting == 0)
-        {
-            finishedTimer += Time.deltaTime;
         }
 
         // after the fight is over for a bit, go back
@@ -232,6 +256,12 @@ public class FightManager : MonoBehaviour {
         {
             anim[x].speed = speed;
         }
+    }
+
+    public void SetGuardSpeed(float speed)
+    {
+        guardSpeed = speed;
+        anim[guardname].speed = speed;
     }
 
     public void AddAttack(string name)
@@ -254,6 +284,12 @@ public class FightManager : MonoBehaviour {
             attackMoveArray.RemoveAt(exists);
         }
         ui.ValidateSettings();
+    }
+
+    public void RemoveAllAttacks()
+    {
+        attackMoveArray = new ArrayList();
+        //ui.ValidateSettings();
     }
 
     public int IsAttackPresent(string thisname)

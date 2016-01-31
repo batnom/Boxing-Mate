@@ -1,0 +1,2754 @@
+fileFormatVersion: 2
+guid: bdbecfab95e19394f91b52ade12e6c01
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip001 Head001
+    100002: Bip001 L Calf001
+    100004: Bip001 L Clavicle001
+    100006: Bip001 L Foot001
+    100008: Bip001 L Forearm001
+    100010: Bip001 L Hand001
+    100012: Bip001 L Thigh001
+    100014: Bip001 L Toe001
+    100016: Bip001 L UpperArm001
+    100018: Bip001 Neck001
+    100020: Bip001 Pelvis001
+    100022: Bip001 R Calf001
+    100024: Bip001 R Clavicle001
+    100026: Bip001 R Foot001
+    100028: Bip001 R Forearm001
+    100030: Bip001 R Hand001
+    100032: Bip001 R Thigh001
+    100034: Bip001 R Toe001
+    100036: Bip001 R UpperArm001
+    100038: Bip001 Spine003
+    100040: Bip001 Spine004
+    100042: Bip001 Spine005
+    100044: Bip002
+    100046: Bone_Brow_C
+    100048: Bone_Brow_L
+    100050: Bone_Brow_R
+    100052: Bone_Eye_L
+    100054: Bone_Eye_R
+    100056: Bone_Jaw
+    100058: Bone_Lid_Down_L
+    100060: Bone_Lid_Down_R
+    100062: Bone_Lid_Up_L
+    100064: Bone_Lid_Up_R
+    100066: Bone_Lip_1
+    100068: Bone_Lip_2
+    100070: Bone_Lip_3
+    100072: Bone_Lip_4
+    100074: WB
+    100076: //RootNode
+    400000: Bip001 Head001
+    400002: Bip001 L Calf001
+    400004: Bip001 L Clavicle001
+    400006: Bip001 L Foot001
+    400008: Bip001 L Forearm001
+    400010: Bip001 L Hand001
+    400012: Bip001 L Thigh001
+    400014: Bip001 L Toe001
+    400016: Bip001 L UpperArm001
+    400018: Bip001 Neck001
+    400020: Bip001 Pelvis001
+    400022: Bip001 R Calf001
+    400024: Bip001 R Clavicle001
+    400026: Bip001 R Foot001
+    400028: Bip001 R Forearm001
+    400030: Bip001 R Hand001
+    400032: Bip001 R Thigh001
+    400034: Bip001 R Toe001
+    400036: Bip001 R UpperArm001
+    400038: Bip001 Spine003
+    400040: Bip001 Spine004
+    400042: Bip001 Spine005
+    400044: Bip002
+    400046: Bone_Brow_C
+    400048: Bone_Brow_L
+    400050: Bone_Brow_R
+    400052: Bone_Eye_L
+    400054: Bone_Eye_R
+    400056: Bone_Jaw
+    400058: Bone_Lid_Down_L
+    400060: Bone_Lid_Down_R
+    400062: Bone_Lid_Up_L
+    400064: Bone_Lid_Up_R
+    400066: Bone_Lip_1
+    400068: Bone_Lip_2
+    400070: Bone_Lip_3
+    400072: Bone_Lip_4
+    400074: WB
+    400076: //RootNode
+    4300000: WB
+    7400000: Idle1
+    7400002: Idle2
+    7400004: Idle3
+    7400006: JabLeft
+    7400008: JabRight
+    7400010: Knockout
+    7400012: UppercutLeft
+    7400014: UppercutRight
+    7400016: GoToGuard
+    7400018: GoToIdle
+    7400020: HookLeft
+    7400022: HookRight
+    7400024: Combo1
+    7400026: Combo2
+    7400028: Combo3
+    7400030: WeaveLeft
+    7400032: Guard
+    7400034: WeaveRight
+    7400036: StrafeLeft
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: WB
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle1
+      takeName: Take 001
+      firstFrame: 528
+      lastFrame: 546
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle2
+      takeName: Take 001
+      firstFrame: 549
+      lastFrame: 574
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle3
+      takeName: Take 001
+      firstFrame: 575
+      lastFrame: 614
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JabLeft
+      takeName: Take 001
+      firstFrame: 615
+      lastFrame: 635
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JabRight
+      takeName: Take 001
+      firstFrame: 636
+      lastFrame: 656
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Knockout
+      takeName: Take 001
+      firstFrame: 657
+      lastFrame: 708
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: UppercutLeft
+      takeName: Take 001
+      firstFrame: 751
+      lastFrame: 772
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: UppercutRight
+      takeName: Take 001
+      firstFrame: 773
+      lastFrame: 793
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GoToGuard
+      takeName: Take 001
+      firstFrame: 357
+      lastFrame: 399
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GoToIdle
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 422
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HookLeft
+      takeName: Take 001
+      firstFrame: 486
+      lastFrame: 506
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HookRight
+      takeName: Take 001
+      firstFrame: 507
+      lastFrame: 527
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Combo1
+      takeName: Take 001
+      firstFrame: 65
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Combo2
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 169
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Combo3
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 215
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WeaveLeft
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard
+      takeName: Take 001
+      firstFrame: 424
+      lastFrame: 443
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WeaveRight
+      takeName: Take 001
+      firstFrame: 836
+      lastFrame: 858
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: StrafeLeft
+      takeName: Take 001
+      firstFrame: 709
+      lastFrame: 729
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip002
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+          L Foot001/Bip001 L Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+          R Foot001/Bip001 R Toe001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_C
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Brow_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Eye_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Jaw
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Down_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_L
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lid_Up_R
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_1
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_2
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_3
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 Head001/Bone_Lip_4
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 L Clavicle001/Bip001 L UpperArm001/Bip001 L Forearm001/Bip001
+          L Hand001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001
+        weight: 1
+      - path: Bip002/Bip001 Pelvis001/Bip001 Spine003/Bip001 Spine004/Bip001 Spine005/Bip001
+          Neck001/Bip001 R Clavicle001/Bip001 R UpperArm001/Bip001 R Forearm001/Bip001
+          R Hand001
+        weight: 1
+      - path: WB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -77,7 +77,15 @@
     <Compile Include="Assets\Scripts\FightManager.cs" />
     <Compile Include="Assets\Scripts\Fighting.cs" />
     <Compile Include="Assets\Scripts\GameWorld.cs" />
+    <Compile Include="Assets\Scripts\IPersistence.cs" />
+    <Compile Include="Assets\Scripts\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\PersistenceManager.cs" />
+    <Compile Include="Assets\Scripts\PersistenceSceneController.cs" />
     <Compile Include="Assets\Scripts\UIScript.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\A_piece_of_nature\Readme.txt" />
+    <None Include="Assets\WB\keyframe_information.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
