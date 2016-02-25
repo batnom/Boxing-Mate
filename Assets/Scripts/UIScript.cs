@@ -85,7 +85,7 @@ public class UIScript : MonoBehaviour {
 
     public void HitStop()
     {
-        fight.EndFight();
+        fight.StopEarly();
         game.FightFinished();
     }
 

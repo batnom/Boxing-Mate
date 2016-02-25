@@ -114,10 +114,17 @@ public class FightManager : MonoBehaviour {
 
         fighting = 0;
         isCoroutineExecuting = false;
+        StopAllCoroutines();
 
         anim.CrossFade(idlename, 0.5f);
         anim.wrapMode = WrapMode.PingPong;
 
+    }
+
+    public void StopEarly ()
+    {
+        timer = fightTime + 1;
+        EndFight();
     }
 
     void NextAttack()
