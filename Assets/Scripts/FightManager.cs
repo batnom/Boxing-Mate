@@ -209,7 +209,7 @@ public class FightManager : MonoBehaviour {
 
     void QueueGuard ()
     {
-        anim[guardname].speed = guardSpeed;
+        SetGuardSpeed(guardSpeed);
         anim.CrossFadeQueued(guardname, 0.2f, QueueMode.CompleteOthers);
         anim.PlayQueued(guardname, QueueMode.CompleteOthers);
         anim.PlayQueued(guardname, QueueMode.CompleteOthers);
@@ -261,14 +261,16 @@ public class FightManager : MonoBehaviour {
         attackSpeed = speed;
         foreach (string x in attackMoveArray)
         {
-            anim[x].speed = speed;
+            anim[x].speed = attackSpeed;
+            Debug.Log("Animation \"" + x + "\" speed set to: " + attackSpeed);
         }
     }
 
     public void SetGuardSpeed(float speed)
     {
         guardSpeed = speed;
-        anim[guardname].speed = speed;
+        anim[guardname].speed = guardSpeed;
+        Debug.Log(guardname + " speed set to: " + guardSpeed);
     }
 
     public void AddAttack(string name)

@@ -123,60 +123,64 @@ public class LevelManager : MonoBehaviour {
             case 1:
                 fight.AddAttack("JabLeft");
                 fight.AddAttack("JabRight");
-                fight.SetAnimationSpeed(0.5f);
+                fight.SetAnimationSpeed(0.2f);
                 fight.SetGuardSpeed(0.1f);
                 fight.delayMin = 4f;
                 fight.delayMax = 5f;
-                fight.fightTime = 20f;
+                fight.fightTime = 30f;
                 break;
             case 2:
-                fight.AddAttack("JabLeft");
-                fight.AddAttack("JabRight");
-                fight.SetAnimationSpeed(0.75f);
-                fight.SetGuardSpeed(0.1f);
+                fight.AddAttack("HookLeft");
+                fight.AddAttack("HookRight");
+                fight.SetAnimationSpeed(0.2f);
+                fight.SetGuardSpeed(0.2f);
                 fight.delayMin = 3f;
                 fight.delayMax = 5f;
-                fight.fightTime = 20f;
+                fight.fightTime = 35f;
                 break;
             case 3:
                 fight.AddAttack("JabLeft");
                 fight.AddAttack("JabRight");
                 fight.AddAttack("HookLeft");
                 fight.AddAttack("HookRight");
-                fight.SetAnimationSpeed(0.75f);
-                fight.delayMin = 3f;
-                fight.delayMax = 4f;
-                fight.fightTime = 20f;
+                fight.SetAnimationSpeed(0.2f);
+                fight.SetGuardSpeed(0.2f);
+                fight.delayMin = 4f;
+                fight.delayMax = 4.5f;
+                fight.fightTime = 40f;
                 break;
             case 4:
                 fight.AddAttack("JabLeft");
                 fight.AddAttack("JabRight");
                 fight.AddAttack("HookLeft");
                 fight.AddAttack("HookRight");
-                fight.SetAnimationSpeed(1f);
+                fight.SetAnimationSpeed(0.3f);
+                fight.SetGuardSpeed(0.3f);
                 fight.delayMin = 4f;
                 fight.delayMax = 5f;
-                fight.fightTime = 30f;
+                fight.fightTime = 40f;
                 break;
             case 5:
                 fight.AddAttack("JabLeft");
                 fight.AddAttack("JabRight");
                 fight.AddAttack("HookLeft");
                 fight.AddAttack("HookRight");
-                fight.SetAnimationSpeed(1f);
+                fight.SetAnimationSpeed(0.4f);
+                fight.SetGuardSpeed(0.4f);
                 fight.delayMin = 3f;
                 fight.delayMax = 4f;
+                fight.fightTime = 40f;
                 break;
             case 6:
-                fight.AddAttack("JabLeft");
-                fight.AddAttack("JabRight");
                 fight.AddAttack("HookLeft");
                 fight.AddAttack("HookRight");
                 fight.AddAttack("UppercutLeft");
                 fight.AddAttack("UppercutRight");
-                fight.SetAnimationSpeed(1f);
+                fight.SetAnimationSpeed(0.4f);
+                fight.SetGuardSpeed(0.4f);
                 fight.delayMin = 3f;
-                fight.delayMax = 4f;
+                fight.delayMax = 5f;
+                fight.fightTime = 40f;
                 break;
             case 7:
                 fight.AddAttack("JabLeft");
@@ -185,9 +189,11 @@ public class LevelManager : MonoBehaviour {
                 fight.AddAttack("HookRight");
                 fight.AddAttack("UppercutLeft");
                 fight.AddAttack("UppercutRight");
-                fight.SetAnimationSpeed(1f);
-                fight.delayMin = 2f;
-                fight.delayMax = 3f;
+                fight.SetAnimationSpeed(0.5f);
+                fight.SetGuardSpeed(0.5f);
+                fight.delayMin = 3f;
+                fight.delayMax = 4f;
+                fight.fightTime = 40f;
                 break;
             case 8:
                 fight.AddAttack("JabLeft");
@@ -196,9 +202,11 @@ public class LevelManager : MonoBehaviour {
                 fight.AddAttack("HookRight");
                 fight.AddAttack("UppercutLeft");
                 fight.AddAttack("UppercutRight");
-                fight.SetAnimationSpeed(1.2f);
+                fight.SetAnimationSpeed(0.5f);
+                fight.SetGuardSpeed(0.5f);
                 fight.delayMin = 2f;
                 fight.delayMax = 3f;
+                fight.fightTime = 40f;
                 break;
             case 9:
                 fight.AddAttack("JabLeft");
@@ -208,9 +216,11 @@ public class LevelManager : MonoBehaviour {
                 fight.AddAttack("UppercutLeft");
                 fight.AddAttack("UppercutRight");
                 fight.AddAttack("Combo1");
-                fight.SetAnimationSpeed(1.3f);
+                fight.SetAnimationSpeed(0.65f);
+                fight.SetGuardSpeed(0.65f);
                 fight.delayMin = 1.9f;
                 fight.delayMax = 2.7f;
+                fight.fightTime = 50f;
                 break;
             case 10:
                 fight.AddAttack("JabLeft");
@@ -220,9 +230,11 @@ public class LevelManager : MonoBehaviour {
                 fight.AddAttack("UppercutLeft");
                 fight.AddAttack("UppercutRight");
                 fight.AddAttack("Combo1");
-                fight.SetAnimationSpeed(1.3f);
+                fight.SetAnimationSpeed(0.8f);
+                fight.SetGuardSpeed(0.8f);
                 fight.delayMin = 1.2f;
                 fight.delayMax = 1.9f;
+                fight.fightTime = 55f;
                 break;
             case 11:
                 fight.AddAttack("JabLeft");
@@ -234,9 +246,11 @@ public class LevelManager : MonoBehaviour {
                 fight.AddAttack("Combo1");
                 fight.AddAttack("Combo2");
                 fight.AddAttack("Combo3");
-                fight.SetAnimationSpeed(1.5f);
-                fight.delayMin = 0.9f;
-                fight.delayMax = 1.2f;
+                fight.SetAnimationSpeed(1.3f);
+                fight.SetGuardSpeed(1.0f);
+                fight.delayMin = 1.1f;
+                fight.delayMax = 1.5f;
+                fight.fightTime = 60f;
                 break;
             case 999: // CUSTOM LEVEL
                 persistence.LoadCustomSettings();
