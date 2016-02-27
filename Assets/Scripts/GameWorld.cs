@@ -77,9 +77,23 @@ public class GameWorld : MonoBehaviour {
 
     public void HitMainMenuButton()
     {
-        // make me better
-        Awake();
-        Start();
+
+        SettingsCanvas.SetActive(false);
+        MenuCanvas.SetActive(true);
+        LevelDoneCanvas.SetActive(false);
+        HUDCanvas.SetActive(false);
+
+        levelNumber = persistence.LoadLevel();
+        Debug.Log("Loaded level: " + levelNumber);
+        levels.GoToLevel(levelNumber);
+        if (levelNumber == 999)
+        {
+            persistence.LoadCustomSettings();
+            //ui.StartListeners();
+            ui.UpdateSettingsWithValues();
+        }
+
+
     }
 
     public void SetupFight(float length, float speed, ArrayList attackMoves, float delayMin, float delayMax)

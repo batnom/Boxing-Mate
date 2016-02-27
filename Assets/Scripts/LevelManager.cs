@@ -113,6 +113,7 @@ public class LevelManager : MonoBehaviour {
         // wipe the slate clean
 
         fight.RemoveAllAttacks();
+        fight.SetGuardSpeed(0.1f);
 
         // now add what each level is
 
@@ -124,7 +125,7 @@ public class LevelManager : MonoBehaviour {
                 fight.AddAttack("JabLeft");
                 fight.AddAttack("JabRight");
                 fight.SetAnimationSpeed(0.2f);
-                fight.SetGuardSpeed(0.1f);
+                fight.SetGuardSpeed(0.05f);
                 fight.delayMin = 4f;
                 fight.delayMax = 5f;
                 fight.fightTime = 30f;
@@ -136,7 +137,7 @@ public class LevelManager : MonoBehaviour {
                 fight.SetGuardSpeed(0.2f);
                 fight.delayMin = 3f;
                 fight.delayMax = 5f;
-                fight.fightTime = 35f;
+                fight.fightTime = 30f;
                 break;
             case 3:
                 fight.AddAttack("JabLeft");
@@ -147,7 +148,7 @@ public class LevelManager : MonoBehaviour {
                 fight.SetGuardSpeed(0.2f);
                 fight.delayMin = 4f;
                 fight.delayMax = 4.5f;
-                fight.fightTime = 40f;
+                fight.fightTime = 35f;
                 break;
             case 4:
                 fight.AddAttack("JabLeft");

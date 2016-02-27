@@ -4138,7 +4138,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11100000, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}
       propertyPath: m_Animations.Array.size
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 400076, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4263,7 +4263,7 @@ Prefab:
     - target: {fileID: 11100000, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}
       propertyPath: m_Animations.Array.data[19]
       value: 
-      objectReference: {fileID: 7400002, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}
+      objectReference: {fileID: 7400038, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}
     - target: {fileID: 100076, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}
       propertyPath: m_Name
       value: BOXER
@@ -4271,6 +4271,26 @@ Prefab:
     - target: {fileID: 100074, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}
       propertyPath: m_Name
       value: BOXER MODEL
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}
+      propertyPath: m_PlayAutomatically
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}
+      propertyPath: m_AnimatePhysics
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bdbecfab95e19394f91b52ade12e6c01, type: 3}

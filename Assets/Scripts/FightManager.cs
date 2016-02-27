@@ -19,7 +19,7 @@ public class FightManager : MonoBehaviour {
     public float delayMax = 2f;
 
     public float attackSpeed = 1.0f;
-    public float guardSpeed = 1.0f;
+    public float guardSpeed = 0.1f;
 
     private bool isCoroutineExecuting = false;
 
@@ -134,7 +134,7 @@ public class FightManager : MonoBehaviour {
 
         if (fighting == 0)
         {
-            Debug.Log("FIGHT OVER");
+            //Debug.Log("FIGHT OVER");
             return;
         }
 
@@ -210,7 +210,7 @@ public class FightManager : MonoBehaviour {
     void QueueGuard ()
     {
         SetGuardSpeed(guardSpeed);
-        anim.CrossFadeQueued(guardname, 0.2f, QueueMode.CompleteOthers);
+        anim.CrossFadeQueued(guardname, 0.2f, QueueMode.CompleteOthers, PlayMode.StopAll);
         anim.PlayQueued(guardname, QueueMode.CompleteOthers);
         anim.PlayQueued(guardname, QueueMode.CompleteOthers);
         anim.PlayQueued(guardname, QueueMode.CompleteOthers);
@@ -248,7 +248,7 @@ public class FightManager : MonoBehaviour {
         }
 
         // after the fight is over for a bit, go back
-        if (finishedTimer >= finishedDelay)
+        if (finishedTimer >= finishedDelay && fighting == 1)
         {
             Debug.Log("FINISHED FIGHT");
             game.FightFinished();
@@ -266,11 +266,20 @@ public class FightManager : MonoBehaviour {
         }
     }
 
-    public void SetGuardSpeed(float speed)
+    public void SetGuardSpeed(float thisSpeed)
     {
-        guardSpeed = speed;
-        anim[guardname].speed = guardSpeed;
-        Debug.Log(guardname + " speed set to: " + guardSpeed);
+        guardSpeed = thisSpeed;
+        anim[guardname].speed = thisSpeed;
+        anim[guardname].normalizedSpeed = thisSpeed;
+        Debug.Log(guardname + " speed set to: " + thisSpeed);
+
+        float otherspeed = thisSpeed;
+        if (otherspeed < 0.3f)
+        {
+            otherspeed = 0.3f;
+        }
+        anim[idlename].speed = otherspeed;
+        anim["GoToGuard"].speed = otherspeed;
     }
 
     public void AddAttack(string name)
