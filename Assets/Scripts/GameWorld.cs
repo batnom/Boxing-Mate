@@ -131,13 +131,13 @@ public class GameWorld : MonoBehaviour {
 
         if (levelNumber == 999)
         {
-            ui.DoneSameLevelButtonText.text = "Go Custom Round Again";
+            ui.DoneSameLevelButtonText.text = "REPLAY"; // was Go Custom Round Again
             ui.DonePrevLevel.GetComponent<Button>().gameObject.SetActive(false);
             ui.DoneNextLevel.GetComponent<Button>().gameObject.SetActive(false);
         }
         else
         {
-            ui.DoneSameLevelButtonText.text = "Let's do that again";
+            ui.DoneSameLevelButtonText.text = "REPLAY"; // was Let's do that again
         }
         LevelDoneCanvas.SetActive(true);
     }

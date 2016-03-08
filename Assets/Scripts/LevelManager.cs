@@ -100,9 +100,9 @@ public class LevelManager : MonoBehaviour {
     public void UpdateButtonLevelText(int level)
     {
         if (level >= 0)
-            ui.levelText.text = "\nLevel " + level;
+            ui.levelText.text = "LEVEL " + level;
         if (level == 999)
-            ui.levelText.text = "\nCustom";
+            ui.levelText.text = "CUSTOM";
     }
 
     public void ApplySettingsForLevel(int level)
