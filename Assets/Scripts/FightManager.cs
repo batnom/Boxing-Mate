@@ -45,6 +45,8 @@ public class FightManager : MonoBehaviour {
         // init objects
 
         anim = fighter.GetComponent<Animation>();
+        anim.wrapMode = WrapMode.Loop;
+        anim.Stop();
 
         // inits
 
@@ -63,7 +65,7 @@ public class FightManager : MonoBehaviour {
 
         anim[idlename].speed = 0.5f;
         anim.CrossFade(idlename, 1.5f);
-        anim.wrapMode = WrapMode.PingPong;
+        //anim.wrapMode = WrapMode.PingPong;
 
     }
 
@@ -85,8 +87,8 @@ public class FightManager : MonoBehaviour {
 
         // Go to Guard then Guard for a while until the first punch kicks in
 
-        anim.CrossFade("GoToGuard", 0.3f, PlayMode.StopAll);
-        anim.wrapMode = WrapMode.Once;
+        //anim.CrossFade("GoToGuard", 0.3f, PlayMode.StopAll);
+        //anim.wrapMode = WrapMode.Once;
 
         QueueGuard();
 
@@ -116,8 +118,8 @@ public class FightManager : MonoBehaviour {
         isCoroutineExecuting = false;
         StopAllCoroutines();
 
-        anim.CrossFade(idlename, 0.5f);
-        anim.wrapMode = WrapMode.PingPong;
+        anim.CrossFade(idlename, 0.5f, PlayMode.StopAll);
+        //anim.wrapMode = WrapMode.PingPong;
 
     }
 
@@ -189,13 +191,14 @@ public class FightManager : MonoBehaviour {
 
         Debug.Log("attack #" + count + " with type " + attackNumber + ": " + attackAnimation);
 
-        anim.CrossFade(attackAnimation, 0.2f, PlayMode.StopAll);
-        anim.wrapMode = WrapMode.Once;
+        anim.CrossFade(attackAnimation, 0.2f);
+        //anim.CrossFade(attackAnimation, 0.2f, PlayMode.StopAll);
+        //anim.wrapMode = WrapMode.Once;
 
         // Then make them idle again
         // Queue up a few just in case there's a big break
 
-        QueueGuard();
+        //QueueGuard(); // don't need to do this any more due to layers
 
         // Stop the delay loop
 
@@ -209,8 +212,9 @@ public class FightManager : MonoBehaviour {
 
     void QueueGuard ()
     {
-        SetGuardSpeed(guardSpeed);
-        anim.CrossFadeQueued(guardname, 0.2f, QueueMode.CompleteOthers, PlayMode.StopAll);
+        //SetGuardSpeed(guardSpeed);
+        anim.CrossFadeQueued(guardname, 0.2f/*, QueueMode.CompleteOthers, PlayMode.StopAll*/);
+        /*
         anim.PlayQueued(guardname, QueueMode.CompleteOthers);
         anim.PlayQueued(guardname, QueueMode.CompleteOthers);
         anim.PlayQueued(guardname, QueueMode.CompleteOthers);
@@ -227,6 +231,7 @@ public class FightManager : MonoBehaviour {
         anim.PlayQueued(guardname, QueueMode.CompleteOthers);
         anim.PlayQueued(guardname, QueueMode.CompleteOthers);
         anim.PlayQueued(guardname, QueueMode.CompleteOthers);
+        */
     }
 
     // Update is called once per frame
@@ -262,6 +267,8 @@ public class FightManager : MonoBehaviour {
         foreach (string x in attackMoveArray)
         {
             anim[x].speed = attackSpeed;
+            anim[x].wrapMode = WrapMode.Once;
+            anim[x].layer = 1;
             Debug.Log("Animation \"" + x + "\" speed set to: " + attackSpeed);
         }
     }
@@ -279,6 +286,7 @@ public class FightManager : MonoBehaviour {
             otherspeed = 0.3f;
         }
         anim[idlename].speed = otherspeed;
+        //anim[idlename].wrapMode = WrapMode.Loop; // idle wrap mode
         anim["GoToGuard"].speed = otherspeed;
     }
 

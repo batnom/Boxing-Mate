@@ -125,7 +125,7 @@ public class LevelManager : MonoBehaviour {
                 fight.AddAttack("JabLeft");
                 fight.AddAttack("JabRight");
                 fight.SetAnimationSpeed(0.2f);
-                fight.SetGuardSpeed(0.05f);
+                fight.SetGuardSpeed(0.2f);
                 fight.delayMin = 4f;
                 fight.delayMax = 5f;
                 fight.fightTime = 30f;
