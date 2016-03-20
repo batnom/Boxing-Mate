@@ -205,7 +205,7 @@ public class UIScript : MonoBehaviour {
 
     public void UpdateAllSettingsValues()
     {
-        lengthValueText.text = fight.fightTime.ToString("F1") + " secs";
+        lengthValueText.text = fight.fightTime.ToString("F0") + " secs";
         speedValueText.text = fight.attackSpeed.ToString("F1") + "x";
         minDelayValueText.text = fight.delayMin.ToString("F1") + " secs";
         maxDelayValueText.text = fight.delayMax.ToString("F1") + " secs";

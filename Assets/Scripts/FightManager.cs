@@ -118,7 +118,9 @@ public class FightManager : MonoBehaviour {
         isCoroutineExecuting = false;
         StopAllCoroutines();
 
-        anim.CrossFade(idlename, 0.5f, PlayMode.StopAll);
+        game.FightFinished();
+
+        //anim.CrossFade(idlename, 0.5f, PlayMode.StopAll);
         //anim.wrapMode = WrapMode.PingPong;
 
     }
@@ -240,10 +242,12 @@ public class FightManager : MonoBehaviour {
         // List animations and their current time
 
         // if the fight is over wait a bit
+        /*
         if (timer >= fightTime && fighting == 0)
         {
-            finishedTimer += Time.deltaTime;
+            
         }
+        */
 
         // for our time UI at the bottom
         if (fighting == 1)
@@ -252,12 +256,14 @@ public class FightManager : MonoBehaviour {
             timeSlider.value = timer / fightTime * 100.0f;
         }
 
+        /*
         // after the fight is over for a bit, go back
         if (finishedTimer >= finishedDelay && fighting == 1)
         {
             Debug.Log("FINISHED FIGHT");
             game.FightFinished();
         }
+        */
 
     }
 

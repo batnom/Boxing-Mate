@@ -68,11 +68,15 @@ public class GameWorld : MonoBehaviour {
     {
         if (SettingsCanvas.active)
         {
+            persistence.SaveCustomSettings();
             SettingsCanvas.SetActive(false);
         } else {
+            levelNumber = persistence.LoadLevel();
+            persistence.LoadCustomSettings();
+            ui.UpdateSettingsWithValues();
+            ui.StartListeners();
             SettingsCanvas.SetActive(true);
         }
-        
     }
 
     public void HitMainMenuButton()
