@@ -15,6 +15,7 @@ public class GameWorld : MonoBehaviour {
     public GameObject MenuCanvas;
     public GameObject SettingsCanvas;
     public GameObject LevelDoneCanvas;
+    public GameObject InfoCanvas;
 
     public int levelNumber;
 
@@ -29,25 +30,13 @@ public class GameWorld : MonoBehaviour {
         HUDCanvas.SetActive(false);
 
         levelNumber = persistence.LoadLevel();
+
+        InfoCanvas.SetActive(true);
+
     }
 
     void Start () {
-
         levels.GoToLevel(levelNumber);
-
-        /*
-        // ANIMATION LIST HERE
-        fight.AddAttack("JabLeft");
-        fight.AddAttack("JabRight");
-        fight.AddAttack("HookLeft");
-        fight.AddAttack("HookRight");
-        fight.AddAttack("UppercutLeft");
-        fight.AddAttack("UppercutRight");
-        fight.AddAttack("Combo1");
-        fight.AddAttack("Combo2");
-        fight.AddAttack("Combo3");
-        ui.UpdateSettingsWithValues();
-        */
     }
 
     public void HitStartButton()
@@ -76,6 +65,16 @@ public class GameWorld : MonoBehaviour {
             ui.UpdateSettingsWithValues();
             ui.StartListeners();
             SettingsCanvas.SetActive(true);
+        }
+    }
+
+    public void HitInfoButton()
+    {
+        if (InfoCanvas.active)
+        {
+            InfoCanvas.SetActive(false);
+        } else {
+            InfoCanvas.SetActive(true);
         }
     }
 

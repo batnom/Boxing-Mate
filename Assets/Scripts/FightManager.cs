@@ -90,6 +90,8 @@ public class FightManager : MonoBehaviour {
         //anim.CrossFade("GoToGuard", 0.3f, PlayMode.StopAll);
         //anim.wrapMode = WrapMode.Once;
 
+        anim.CrossFade(guardname, 1.5f);
+
         QueueGuard();
 
         // Print out what we've got

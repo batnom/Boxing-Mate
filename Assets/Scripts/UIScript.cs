@@ -104,6 +104,11 @@ public class UIScript : MonoBehaviour {
         game.HitCustomiseButton();
     }
 
+    public void HitInfoButton()
+    {
+        game.HitInfoButton();
+    }
+
     public void SetFightLengthFromSlider()
     {
         fight.fightTime = lengthSlider.value;
