@@ -72,8 +72,28 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Validator">
+      <HintPath>Assets\Fabric\Managed\Validator.dll</HintPath>
+    </Reference>
+    <Reference Include="Analytics">
+      <HintPath>Assets\Fabric\Managed\Analytics.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Answers.cs" />
+    <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Internal\AnswersAndroidImplementation.cs" />
+    <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Internal\AnswersAppleImplementation.cs" />
+    <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Internal\AnswersStubImplementation.cs" />
+    <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Internal\IAnswers.cs" />
+    <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\Crashlytics.cs" />
+    <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\CrashlyticsInit.cs" />
+    <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\Internal\AndroidImpl.cs" />
+    <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\Internal\IOSImpl.cs" />
+    <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\Internal\Impl.cs" />
+    <Compile Include="Assets\Fabric\Runtime\Fabric.cs" />
+    <Compile Include="Assets\Fabric\Runtime\FabricInit.cs" />
+    <Compile Include="Assets\Fabric\Runtime\FabricUtils.cs" />
+    <Compile Include="Assets\Fabric\ThirdParty\MiniJSON.cs" />
     <Compile Include="Assets\Scripts\FightManager.cs" />
     <Compile Include="Assets\Scripts\Fighting.cs" />
     <Compile Include="Assets\Scripts\GameWorld.cs" />
@@ -84,6 +104,15 @@
     <Compile Include="Assets\Scripts\UIScript.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\answers\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\beta\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\crashlytics-wrapper\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\crashlytics\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\fabric-init\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\fabric\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\fabric\Template-AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\fabric\res\values\strings.xml" />
     <None Include="Assets\WB\keyframe_information.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

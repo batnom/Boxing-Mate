@@ -37,6 +37,7 @@ public class GameWorld : MonoBehaviour {
 
     void Start () {
         levels.GoToLevel(levelNumber);
+        InfoCanvas.SetActive(true);
     }
 
     public void HitStartButton()

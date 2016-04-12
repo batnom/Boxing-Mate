@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ad9ddc0e5b942a98ec392b434d39bd, type: 3}
+  m_Name: FabricSettings
+  m_EditorClassIdentifier: 
+  email: nomis1@gmail.com
+  rawToken: '{"access_token":"c7eed1971d88c39e8f7bdb28179841df38d37fdb7b7c2b0097ca65b4cf74f4a7","refresh_token":"64b692e02136d62aea4f3e46a3f7e726ae6e3defa091a1000e3987d008273bcc","token_type":"bearer","expires_in":86400}'
+  organization:
+    Name: Dynomic
+    Id: 54fd9ac64dd446b2f30003a5
+    ApiKey: 8f5807772626a7ede4547d97437ff91bbe5ad5c9
+    BuildSecret: 24ae11a2e4b65476bdf8a7708ecf1aa39c2e253d4f0d80458ac8fbb06c4e6dd6
+  iconUrl: https://s3.amazonaws.com/assets.crashlytics.com/production/project/5177324/build_version/38220879/icon/22346756/icon.png
+  dashboardUrl: https://www.fabric.io/dynomic/ios/apps/com.dynomic.boxingmate
+  flowSequence: 0
+  kit: Crashlytics
+  installedKits:
+  - Name: Crashlytics
+    Installed: 1
+    Enabled: 1
+    Meta: []
