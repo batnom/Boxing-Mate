@@ -1,4 +1,4 @@
-# Boxing
+# Boxing Mate
 A boxing defense game that started as a simple prototype to learn Unity3d.  
 
 Best use case is Airplay on a TV or propping up the device in front of the user, the boxer throws punches and the user practices their blocking.  Progress through the levels and the boxer will use additional punches faster and with less delay in between.
